@@ -1,6 +1,32 @@
+body{
+    font-family: 'Abel', sans-serif;
+}
 .food-bank{
     font-family: 'Otomanopee One', sans-serif;
 }
 .salmon-color{
     color: salmon;
+}
+.first-block{
+    display: flex;
+    background-image: url(images/Frame\ 59.jpg);
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 350%;
+    padding-left: 100%;
+}
+#first-block-text{
+    font-size: 30px;
+    padding-left: 50px;
+}
+#first-block-text a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(red,salmon);
+    padding: 8px 12px;
+    border-radius: 7px;
 }
