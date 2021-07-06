@@ -3,6 +3,14 @@ body{
 }
 .food-bank{
     font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    background-image: url(images/logo.jpg);
+    margin-top: 0px;
+    margin-bottom: 4px;
+    padding-top: 17px;
+    padding-bottom: 10px;
 }
 .salmon-color{
     color: salmon;
@@ -86,6 +94,7 @@ body{
 .social{
     display: flex;
     box-shadow: 0px -2px 7px;
+    margin-bottom: 30px;
     margin-inline: 130px;
     border-radius: 100px;
 }
@@ -101,4 +110,24 @@ body{
     font-size: 70px;
     margin-top: 10px;
     margin-bottom: -35px;
+}
+.last-section{
+    text-align-last: center;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 20px;
+    background-color: rgb(7, 7, 20);
+}
+.last-section h3{
+    font-size: 50px;
+    padding-top: 20px;
+    margin-bottom: 12px;
+}
+.last-section p{
+}
+.food{
+    color: teal;
+}
+.bank{
+    color: slategrey;
 }
