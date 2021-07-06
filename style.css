@@ -1,9 +1,11 @@
 body{
     font-family: 'Abel', sans-serif;
 }
+
 .food-bank{
     font-family: 'Otomanopee One', sans-serif;
     text-align: center;
+    color: rgb(116, 14, 23);
     font-size: 80px;
     font-weight: 900;
     background-image: url(images/logo.jpg);
@@ -12,32 +14,41 @@ body{
     padding-top: 17px;
     padding-bottom: 10px;
 }
+
 .salmon-color{
     color: salmon;
 }
+
 .first-block{
     display: flex;
     background-image: url(images/Frame\ 59.jpg);
+    margin-bottom: 28px;
 }
+
 .half-width{
     width: 50%;
 }
-.half-width img{
-    width: 350%;
-    padding-left: 100%;
+
+.first-block img{
+    width: 354%;
+    padding-left: 185px;
 }
-#first-block-text{
+
+.first-block-text{
     font-size: 30px;
     padding-left: 50px;
 }
-#first-block-text a{
+
+.first-block-text a{
     text-decoration: none;
     font-weight: 600;
     color: white;
     background-image: linear-gradient(red,salmon);
     padding: 8px 12px;
+    margin-top: 20%;
     border-radius: 7px;
 }
+
 .second-block{
     display: flex;
     margin-top: 6.5%;
@@ -45,17 +56,21 @@ body{
     background-position: inherit;
     background-repeat: round;
 }
+
 .second-block img{
     height: 20%;
     width: 30%;
-    padding-left: 6%;
+    padding-left: 11px;
     padding-right: 7%;
 }
+
 .second-block-text{
     font-weight: 500;
     font-size: 30px;
     padding-top: 10%;
+    padding-left: 81px;
 }
+
 .second-block a{
     text-decoration: none;
     color: white;
@@ -65,32 +80,49 @@ body{
     font-weight: 700;
     margin-top: 10%;
 }
+
 .third-block-text{
     text-align: center;
+    padding-top: 30px;
+    font-size: 22px;
 }
+
 .boxes{
     display: flex;
-    padding-left: 65px;
+    padding-left: 50px;
     margin-top: 50px;
     margin-bottom: 60px;
 }
+
 .area{
     width: 40%;
 }
+
 .boxes img{
-    height:240px;
-    width: 270px;
+    height:270px;
+    width: 300px;
     border-radius: 18px;
 }
+
 .border-of-box{
-    margin-right: 90px;
+    margin-right: 50px;
     margin-left: 10px;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 34px;
+    padding-top: 45px;
     padding-right: 30px;
     box-shadow: 0px -2px 15px;
     border-radius: 35px;   
 }
+
+.boxes h3{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.boxes p{
+    font-size: 20px;
+}
+
 .social{
     display: flex;
     box-shadow: 0px -2px 7px;
@@ -98,6 +130,7 @@ body{
     margin-inline: 130px;
     border-radius: 100px;
 }
+
 .followers{
     width=30%;
     font-weight: 700;
@@ -106,28 +139,31 @@ body{
     padding-top: -30px;
     padding-bottom: 10px;
 }
+
 .followers h2{
     font-size: 70px;
     margin-top: 10px;
     margin-bottom: -35px;
 }
+
 .last-section{
     text-align-last: center;
     color: white;
     padding-top: 0;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
     background-color: rgb(7, 7, 20);
 }
+
 .last-section h3{
     font-size: 50px;
-    padding-top: 20px;
-    margin-bottom: 12px;
+    padding-top: 15px;
+    margin-bottom: 15px;
 }
-.last-section p{
-}
+
 .food{
     color: teal;
 }
+
 .bank{
     color: slategrey;
 }
